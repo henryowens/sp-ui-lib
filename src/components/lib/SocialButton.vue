@@ -11,8 +11,8 @@ import { percent, px } from "csx";
 import { classes, style } from "typestyle";
 import { Options, prop, Vue, WithDefault } from "vue-class-component";
 
-import { brandColors } from "@/styles/brands/colors";
-import { colors } from "@/styles/common/colors";
+import { brandColors } from "../../styles/brands/colors";
+import { colors } from "../../styles/common/colors";
 
 export enum SocialTypes {
   WhatsApp = "whatsapp",

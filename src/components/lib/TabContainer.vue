@@ -19,7 +19,7 @@
 </template>
 
 <script lang="ts">
-import { colors } from "@/styles/common/colors";
+import { colors } from "../../styles/common/colors";
 import { percent, px } from "csx";
 import { style } from "typestyle";
 import { Options, prop, Vue } from "vue-class-component";
